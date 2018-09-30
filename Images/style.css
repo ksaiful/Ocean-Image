@@ -1,0 +1,145 @@
+.header{
+	min-height: 155px;
+	background-color: #121B2A;
+	overflow: hidden;
+	
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+.img{
+
+	width: 20%;
+	float: left;
+}
+.nav{
+	width: 70%;
+	float: right;
+	display: block;
+}
+.nav ul{
+	list-style: none;
+	
+}
+.nav ul li{
+	float: left;
+	padding: 34px 24px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: 20px;
+}
+.nav ul li a:hover{
+	background-color: #0177BD;
+	color: white;
+	transition: .5s;
+	display: block;
+	padding: 1px;
+
+
+}
+.banner{
+	margin-top: -20px;
+	background-image: url(./images/banner2.jpg);
+	width: 100%;
+	min-height: 450px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.banner_content{
+	color: white;
+	margin-left: 20px;
+	color: white;
+	padding-top: 20px;
+}
+.banner_content h2{
+	color: #73C7FF;
+	font-size: 35px; 
+}
+
+}
+.banner_content button{
+	padding: 6px;
+    border-radius: 25px;
+    border: none;
+}
+.banner_content button:hover{
+	color: #C292AA;
+	background-color: #294189;
+
+}
+.service{
+	background-color: #121B2A;
+	min-height: 300px;
+	overflow: hidden;
+	width: 100%;
+}
+.service_section{
+	overflow: hidden;
+}
+.service1{
+	width: 30%;
+	float: left;
+	color: white;
+	border-right: 1px solid white;
+	padding: 15px;
+
+}
+.service1:last-child{
+	border-right: none;
+}
+.service1_content{
+	width: 100%;
+}
+.service1_content img{
+	width: 20%;
+	float: left;
+}
+.service1_content p{
+	width: 80%;
+	float: right;
+}
+.footer{
+	min-height: 100px;
+	background-color: #121B2A;
+	overflow: hidden;
+	border-top: 1px solid black;
+
+}
+.footer_content{
+	width: 100%;
+	overflow: hidden;
+}
+.footer_nav{
+	width: 60%;
+	float: left;
+}
+.footer_content img{
+	width: 30%;
+	float: right;
+	margin-top: 20px;
+}
+.footer_nav ul{
+	list-style: none;
+
+}
+.footer_nav ul li{
+	float: left;
+	color: white;
+}
+.footer_nav ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 14px;
+}
+.footer_nav p{
+	color: white;
+    margin-top: 25px;
+    padding: 39px;
+    
+    text-align: justify;
+}
